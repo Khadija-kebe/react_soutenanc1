@@ -1,0 +1,76 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.listeusert{
+    width: 95%;
+    margin: auto;
+    /* box-shadow: 0 0 5px #ccc; */
+    margin-top: 2%;
+    /* background-color: #fff; */
+    
+}
+.users{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    
+}
+
+.usertr{
+    width: 243px;
+    background-color:#fff;
+    text-align: center;
+    box-shadow: 0 0 5px #ccc;
+    height: 240px;
+   margin-left: 10px;
+   margin-bottom: 10%;
+}
+.usertr img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    margin-top: 10%;
+  
+ 
+}
+.usertr h3{
+   font-size: 18px;
+  
+ 
+}
+.usertr p{
+    font-size: 14px;
+    font-family: 'Mulish';
+  
+     font-style: normal;
+  
+     font-weight: 200;
+  
+ }
+.admid{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    align-items: center;
+    margin-top: 10px;
+}
+.admid span .suppe .fa-solid{
+    color: #dd0f0f;
+
+}
+.admid span .edi .fa-solid{
+   color: #000;
+}
+.admid span button{
+    background-color: #EEEDE7;
+    border-color: #EEEDE7;
+    border-radius: 8px;
+    padding: 5px 5px;
+    color: #000;
+    box-shadow: 0 0 5px #ccc;
+ }
+.utule h4{
+    display: flex;
+    font-size: 18px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+ }

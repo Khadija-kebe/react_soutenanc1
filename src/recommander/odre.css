@@ -1,0 +1,24 @@
+.recent-orders h2{
+    color: #000;
+    font-family: 'Mulish Black';
+    font-size: 24px;
+   font-style: normal;
+}
+.recent-orders th{
+    font-family: 'Mulish Regular';
+    font-size: 14px;
+}
+.recent-orders td{
+    font-family: 'Mulish Regular';
+    font-size: 12px;
+    color: #000;
+}
+.recent-orders table{
+    /* width: 700px!important; */
+}
+
+.clike button{
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+}

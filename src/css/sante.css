@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Mulish:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,600&family=Poppins&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.santeAnimal {
+    margin-top: 70px;
+    object-fit: cover;
+ }
+ .textesante  {
+    margin-top: 8%;
+  background-image: url('../assets/image/Rectangles.jpg');
+  height: 450px;
+  background-size: cover;
+ }
+ .textesante h3 {
+     color: #FFF;
+     font-family: 'Mulish Black';
+     font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 42px;
+   
+    width: 600px;
+     display: flex;
+     padding-top: 150px;
+    padding-left: 9%;
+     flex-shrink: 0;
+     margin-bottom: 20px;
+ 
+     /* text-align: center; */
+ }
+ .textesante p {
+     color: #FFF;
+     line-height: 1.9;
+     font-size: 14px;
+     width: 40px;
+     font-family: 'Mulish Regular', sans-serif;
+     margin-left: 9%;
+    
+ }
+.service-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    gap: 2%;
+}
+.service-card{
+    background-color: #FFF;
+    height: 150px;
+    width: 250px;
+    text-align: center;    color: #767369;
+     font-family: 'Mulish';
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+    box-shadow: 0 0 5px #ccc;
+    align-items: center;
+    border-radius: 10px;
+}
+.service-card h5{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.service-card span h6{
+    margin-top: 3%;
+}
+.service-card img{
+    margin-top: 15px;
+}
+ .sonseilNutr {
+     padding-top: 30px;
+    width: 100% !important;
+ 
+ }
+ .lesconseils h3 {
+     
+    
+     margin-bottom: 60px;
+    
+     margin-right: 56%;
+ 
+ }
+
+ .sonseilNutr h3{
+    margin-left: 10%;
+    font-size: 24px;
+    line-height: 1.9;
+ }
+ .recommande h3{
+    text-align: center!important;
+ }
+ .sonseilNutr .lescons {
+     margin-left: 100px;
+ }
+ .lescons {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     margin-top: 30px;
+ }
+ .lescons p {
+     margin-top: 30px;
+ 
+     line-height: 20px; 
+ }
+ .lesconseils {
+  background-color: #FFF;
+  width: 120%;
+  margin-left: -20px !important;
+ }
+  .lesconseils .custom-shape-divider-top-1698745728 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100% !important;
+   overflow: hidden;
+   line-height: 0;
+ }
+ 
+  .lesconseils .custom-shape-divider-top-1698745728 svg {
+   position: relative;
+   display: block;
+   /* width: calc(100% + 1.3px); */
+   height: 150px;
+   width: 100%;
+ }
+ 
+
+ .conseilAlim img {
+   width: 280px;
+   height: 200px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+ }
+ .conseilAlim {
+   /* gap: 20px; */
+   /* display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+   width: 80%;
+   margin: auto; */
+
+   /* margin-left: 120px;
+   margin-right: 300px;
+    */
+    width: 77%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    /* gap: 3%; */
+    margin: auto;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-left: 9%;
+ }
+ .conseilAlim h4 {
+  
+ 
+ 
+ }
+ .alim{
+    width: 68%;
+ }
+ .conseilAlim p {
+     color: #000;
+     font-family: 'Mulish';
+     font-size: 12px;
+     font-style: normal;
+     width: 60%;
+     font-weight: 200;
+     width: 0%;
+     line-height: normal; 
+     text-align: center;
+     
+     display: inline;
+ }
+ .voirplus {
+     color: #fff;
+     margin-top: 20px;
+     border-radius: 8px;
+     background-color: #FF9021;
+     padding: 10px 24px;
+     margin-bottom: 20px;
+     border-color: #FF9021;
+    
+ }
+ .satei {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .rec {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .rec button {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: #FF9021;
+    background-color:  rgba(15, 8, 8, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 4);
+    color: #FF9021;
+    cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  }
+  .rec button:hover {
+    background-color: #FF9021;
+  }
+  .rec button .voir{
+    font-size: 14px;
+    color: #fff;
+  }
+  .tenue{
+    background-color: #FFF!important;
+  }
+  
+
+
+
+
+  /*=============== GOOGLE FONTS ===============*/
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(82, 60%, 28%);
+  --title-color: hsl(0, 0%, 15%);
+  --text-color: hsl(0, 0%, 35%);
+  --body-color: hsl(0, 0%, 95%);
+  --containerAA-color: hsl(0, 0%, 100%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Poppins", sans-serif;
+  --h2-font-size: 1.25rem;
+  --small-font-size: .813rem;
+}
+
+/*========== Responsive typography ==========*/
+@media screen and (min-width: 1120px) {
+  :root {
+    --h2-font-size: 1.5rem;
+    --small-font-size: .875rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.card__article {
+  margin-top: -10px ;
+}
+
+
+ .card__article img {
+  display: block;
+  max-width: 100%;
+  height:400px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+/*=============== CARD ===============*/
+.containerAA {
+  width: 80%;
+
+  display: grid;
+  margin: auto;
+  /* place-items: center; */
+  /* margin-inline: 1.5rem;
+  padding-block: 5rem; */
+}
+
+.card__containerAA {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)!important;
+ margin: auto;
+
+  row-gap: 4.5rem;
+}
+
+.card__article {
+ margin-top: 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card__img {
+  width: 328px;
+  border-radius: 1.5rem;
+}
+
+.card__data {
+  width: 220px!important;
+  background-color: var(--containerAA-color);
+  padding: 1.5rem 2rem;
+  box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
+  border-radius: 1rem;
+  position: absolute;
+  bottom: -9rem;
+  left: 0;
+  right: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.card__description {
+  display: block;
+  font-size: 12px;
+
+  font-weight: 200;
+  font-size: var(--small-font-size);
+  margin-bottom: .25rem;
+}
+
+.card__title {
+  font-size: var(--h2-font-size);
+  font-size: 18px;
+  font-family: 'Mulish Regular';
+  font-weight: 200;
+  color: var(--title-color);
+  margin-bottom: .75rem;
+}
+
+.card__button {
+  font-family: 'Mulish Regular';
+  text-decoration: none;
+  font-size: var(--small-font-size);
+  font-weight: 500;
+ color: #FF9021;
+}
+
+.card__button:hover {
+  text-decoration: underline;
+}
+
+/* Naming animations in hover */
+.card__article:hover .card__data {
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.card__article:hover {
+  animation: remove-overflow 2s forwards;
+}
+
+.card__article:not(:hover) {
+  animation: show-overflow 2s forwards;
+}
+
+.card__article:not(:hover) .card__data {
+  animation: remove-data 1s forwards;
+}
+
+/* Card animation */
+@keyframes show-data {
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(-7rem);
+  }
+}
+
+@keyframes remove-overflow {
+  to {
+    overflow: initial;
+  }
+}
+
+@keyframes remove-data {
+  0% {
+    transform: translateY(-7rem);
+  }
+  50% {
+    transform: translateY(-10rem);
+  }
+  100% {
+    transform: translateY(.5rem);
+  }
+}
+
+@keyframes show-overflow {
+  0% {
+    overflow: initial;
+    pointer-events: none;
+  }
+  50% {
+    overflow: hidden;
+  }
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 340px) {
+  .containerAA {
+    margin-inline: 1rem;
+  }
+
+  .card__data {
+    width: 250px;
+    padding: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 768px) {
+  .card__containerAA {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 1.5rem;
+  }
+}
+
+/* For large devices */
+@media screen and (min-width: 1120px) {
+  .containerAA {
+    height: 100vh;
+  }
+
+  .card__containerAA {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card__img {
+    width: 348px;
+  }
+  .card__data {
+    width: 316px;
+    padding-inline: 2.5rem;
+  }
+}

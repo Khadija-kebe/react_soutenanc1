@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Mulish:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,600&family=Poppins&display=swap');
+.commande{
+    max-width: 1200px;
+    width: 100%;
+    margin: 100px auto;
+    /* box-shadow: 0 0 5px #ccc; */
+    height: 500px;
+  
+}
+.rendrecom{
+  background-color: #fff!important;
+}
+.baserr{
+    gap:4px;
+    width: 300px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+    
+  }
+  .baserr input{
+    width: 350px;
+  }
+  .baserr label{
+    font-family: 'Mulish Regular', sans-serif;
+    font-size: 12px;
+  }
+  
+  .anuel1 button{
+    padding: 10px 24px;
+    width: 350px;
+    margin-top: 10px;
+    background-color: #EEEDE7;
+    color: #000;
+    border-color: #EEEDE7;
+    border-radius: 4px;
+
+  }
+  .anuel2 button{
+    padding: 10px 24px;
+    width: 350px;
+    margin-top: 10px;
+    color: #000;
+    background-color: #FF9021;
+    border-color: #FF9021;
+    border-radius: 4px;
+
+  }
+
+.karim{
+    display: flex;
+    justify-content: center;
+    gap: 38%;
+    margin-top: 5%;
+   
+}
+.dijakk img{
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.comment{
+  margin-top: 10%;
+}
+.produrrr{
+  background: #fff;
+  margin-top: 3%;
+  width: 300px;
+  height: 400px;
+  flex-shrink: 0;
+  box-shadow: 0 0 5px #ccc;
+}
+.perte{
+ text-align: center;
+ margin-top: 15px;
+  
+  }
+  .ternerr{
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 15px;
+    gap: 10px;
+
+  }
+ 
+  .rame h5{
+   
+  }
+  .rame p{
+    font-size: 12px;
+    margin-top: 5px;
+    color: #FF9021;
+  }
+  .decoration-line {
+    margin-top: 10px;
+    height: 2px; 
+    width: 90%;
+    margin-left: 12px;
+     /* Largeur de la ligne (100% de la largeur du conteneur parent) */
+    background-color: #EEEDE7; /* Couleur de la ligne (noir dans cet exemple) */
+   /* Marge supérieure et inférieure pour espacement */
+  }
+  .pric{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+    gap: 10px;
+  }
+  

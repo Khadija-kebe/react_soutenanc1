@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Mulish:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,600&family=Poppins&display=swap');
+
+.rendezvous {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-image: url('../assets/image/Rectangles.jpg');
+    background-color: #ffff;
+    background-size: cover;
+    margin-top: 10%;
+    height: 500px;
+    
+}
+
+.rendez {
+    display: flex;
+    width: 100%;
+  
+}
+.textrend{
+    position: absolute;
+    width: 29%;
+    margin-left: 4%;
+}
+.textrend h1{
+  
+    color: #fff;
+     font-family: 'Mulish Black';
+     font-size: 36px;
+     font-style: normal;
+     /* font-weight: 400;
+     line-height: 20px;  */
+     line-height: 1.7;
+    
+}
+
+.sliderrendd{
+    width: 80%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.sliderrend {
+    width: 79%;
+    display: flex;
+    margin-left: 43%;
+    
+}
+
+.imagerend img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 20px 20px!important ;
+    object-fit: cover;
+    /* box-shadow: 0 0 5px #ccc; */
+ 
+}
+
+.texterend {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    width: 100%;
+    border-radius:0 0 20px 20px;
+    box-sizing: border-box;
+}
+.texterend span{
+    color: #fff;
+}
+
+
+  
+  .imagerend {
+    position: relative; 
+    display: inline-block; 
+  }
+  
+  .texterendre {
+
+  }
+ 
+  /* Style facultatif pour le texte */
+  .texterendre span {
+    display: block; /* Chaque span sur une nouvelle ligne */
+    font-size: 16px; /* Taille de police */
+    font-weight: bold; /* Gras */
+  }
+.imagerend img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    /* box-shadow: 0 0 5px #ccc; */
+}  
+
+
+
+.boutonDetails {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* Utilisez transform pour centrer le bouton au milieu de l'image */
+    background-color:#F27900 ;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .custom-modal {
+    position: fixed;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+  }
+  
+

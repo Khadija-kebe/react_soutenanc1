@@ -1,0 +1,116 @@
+/* Importing Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* body {
+    background: #ecececdb;
+} */
+
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+    background-color: #FFF;
+}
+
+.card-list .card-item {
+    background: #fff;
+    padding: 26px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+    height: 200px;
+}
+
+.card-list .card-item:hover {
+    border: 2px solid #FFF;
+}
+
+.card-list .card-item img {
+    width: 100%;
+    aspect-ratio: 14/9!important;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-list span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.card-list .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+
+.card-list .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+
+.card-list .editor {
+    background-color: #d6f8d6; 
+    color: #205c20;
+}
+
+.card-item h6 {
+    color: #000;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Mulish Regular', sans-serif;
+    font-weight: 600;
+}
+
+.card-item .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+
+    height: 30px;
+    width: 50px;
+   margin-top: 5%;
+  /* margin-left: 10%; */
+    /* margin-top: 40px; */
+    transition: 0.2s ease;
+}
+
+/* .card-list .card-item:hover .arrow  {
+    background: #000;
+    color: #fff; 
+} */
+
+@media (max-width: 1200px) {
+    .card-list .card-item {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .card-list {
+        margin: 0 auto;
+    }
+}
+.coderr{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}

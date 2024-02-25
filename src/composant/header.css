@@ -1,0 +1,143 @@
+@import '@fortawesome/fontawesome-free/css/all.css';
+.caroo {
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    background-color: #171717!important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 50px;
+   
+
+}
+
+/* body {
+    position: relative;
+} */
+header {
+    position: absolute!important;
+    position: fixed!important;
+    top: 6%;
+    /* left: 0;
+    right: 0; */
+    z-index: 20;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+    height: 70px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+header .logo {
+    /* font-size: 25px;
+    font-weight: bold; */
+   margin-left: 2%;
+}
+.logo h3{
+    color: #000;
+  font-family: 'Mulish Black';
+  font-size: 25px;
+ font-style: normal;
+ font-weight: 700;
+ line-height: 42px;
+
+}
+header .logo span {
+    color: #000;
+    
+}
+.menu {
+    display: flex;
+}
+.menu li {
+    list-style: none;
+    margin: 0 20px;
+}
+.menu li a {
+    font-size: 14px;
+    color: #000;
+    /* color: #FFF; */
+    /* line-height: 1.9; */
+    font-size: 14px;
+    /* width: 450px; */
+    font-family: 'Mulish Regular', sans-serif;
+    /* font-weight: 300; */
+    transition: 0.2s;
+}
+.menu li a:hover {
+    color: #F27900;
+}
+header button {
+    background-color: #ea1f33;
+    cursor: pointer;
+    color: #fff;
+    padding: 5px 25px;
+}
+#home {
+    margin-top: 50px;
+    height: calc(100vh - 50px);
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.iconneheader{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.iconneheader .fo{
+    color: #000;
+    
+}
+.iconneheader .foo{
+    color:#F27900;
+    
+}
+.caroo{
+ /* position: absolute;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: 20; */
+    background-color: #000;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: space-around;
+    padding: 10px 8%;
+    height: 40px;  */
+}
+.email {
+    display: flex;
+    gap: 5px;
+}
+.email span{
+    color: #fff;
+    font-family: 'Mulish Regular', sans-serif;
+}
+.email span .vert{
+    color: #F27900;
+}
+.cor {
+    display: flex;
+    gap: 30px;
+    margin-left: 22px;
+}
+.rund{
+    text-align: center;
+    align-items: center;
+}
+.cart-notification{
+    color: #F27900;
+}

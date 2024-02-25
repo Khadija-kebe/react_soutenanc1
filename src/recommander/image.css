@@ -1,0 +1,192 @@
+/* .veterine{
+  margin-top: 10%;
+}
+.veteri {
+    position: relative; 
+  }
+  
+  .veterimg {
+    position: relative; 
+  }
+  
+  .veteritexte {
+    width: 800px;
+    align-items: center;
+    height: 250px;
+    background-color: #FFF;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center; 
+    color: #000; 
+  }
+  .veteritexte h3{
+    margin-top: 30px;
+   font-family:  'Mulish Black';
+    line-height: 1.7;
+  }
+  .veteritexte p{
+    color: #000;
+     font-family: 'Mulish Regular';
+     line-height: 1.9;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 200;
+     text-align: center;
+  }
+  .veteritexte h5{
+    color: #000;
+     font-family: 'Mulish Black';
+     line-height: 1.9;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 200;
+     text-align: center;
+  }
+ .veteritexte button{
+  padding: 10px 24px;
+  margin-top: 10px;
+  background-color: #22E41E;
+  border: none;
+  color: #FFF;
+  border-radius: 8px;
+ } */
+ .Contact {
+  background-image: url('../assets/image/Rectangles.jpg');
+  width: 100%;
+  height: 400px;
+  /* margin-top: 20%; */
+ }
+ .Contact{
+  position: relative;
+ }
+ .Contacts{
+display: flex;
+gap: 5%;
+justify-content: center;
+  top: 50%; /* Positionnez le texte au centre de la div parente */
+  left: 10%;
+  margin: auto;
+  width: 80%;
+  position: absolute;
+  background-color: #000;
+
+  box-shadow: 0 0 5px #000;
+
+ }
+ /* .telet{
+  height: 1000px;
+  background-color: #FFF!important;
+ } */
+.contacttext{
+  width: 90%;
+}
+
+ .form_contact {
+  /* margin-top: 10%; */
+  background-color: #FFF;
+  /* width: 150%; */
+  height: 100%;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 15px;
+  border-radius: 6px;
+
+}
+.localisation_contact_div h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.form_contact form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.form_contact form input , textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  outline: 0;
+  border-radius: 6px;
+  font-size: 15px;
+  resize: none;
+ 
+}
+.form_contact form textarea{
+  height: 100px;
+}
+.form_contact form input[type="submit"]{
+  margin-bottom: 0;
+  background-color: #F27900;
+  color: #fff;
+  border: 0;
+  text-align: center;
+}
+.vetcontacte .tene{
+  color: #fff;
+
+  font-family: 'Mulish Black';
+  font-size: 36px;
+ font-style: normal;
+ font-weight: 700;
+ /* line-height: 42px; */
+
+}
+.vetcontacte{
+  padding: 5%;
+}
+.valide{
+  /* text-align: center; */
+ 
+  color: #FFF;
+}
+.valide img{
+ margin-left: 5%;
+ width: 90px;
+ height: 90px;
+ object-fit: cover;
+ border-radius: 50%;
+}
+.valide h5{
+  margin-left: 5%;
+  margin-top: 5px;
+}
+.loca2 .vert{
+  color: #EEEDE7;
+}
+.keb .tene{
+  color: #F27900;
+}
+
+.loca2 span{
+  color: #FFF;
+  line-height: 1.9;
+  font-size: 14px;
+ margin: 5px;
+  font-family: 'Mulish Regular', sans-serif;
+}
+.loca1{
+  margin-top: 10%;
+  display: flex;
+  gap: 10%;
+}
+.tene{
+  display: flex;
+}
+.alert{
+  width: 500px;
+  background-color: #EEEDE7;
+
+}
+.alert p{
+  color: #000;
+}
+
+.soumettre button{
+ padding: 10px 24px;
+ border-radius: 8px;
+background-color: #F27900;
+}

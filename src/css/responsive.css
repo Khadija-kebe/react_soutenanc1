@@ -1,0 +1,47 @@
+.img1 img{
+    position: absolute;
+    margin-bottom: 50px;
+}
+.contenuV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4%;
+    margin: auto;
+    gap:15%;
+
+}
+h1 span{
+    color:#22E41E;
+}
+.texto{
+    width: 30%;
+}
+.texto p{
+    line-height: 1.9;
+    font-size: 14px;
+    font-family: 'Mulish Regular', sans-serif;
+}
+.imageV img{
+    width: 60%px;
+}   
+/* .button1 button{
+    background-color: #22E41E;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-color: #22E41E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 20px;
+  } */
+  .button1 button a{
+    color: #fff;
+    text-decoration: none;
+  }
+  section{
+   
+    width: 100%;
+    background-color: #EEEDE7;
+    text-align: center;
+    height: 300px;
+  }

@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&family=Mulish:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,600&family=Poppins&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.maink{
+    margin-top: 10%;
+    height: 90vh;
+    width: 100%;
+    margin: auto;
+    background-image: linear-gradient(rgb(4 3 3/60%),
+    rgb(0 0 0/33%)),url(../assets/image/teko.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+.btn{
+    padding: 12px 39px;
+    background-color:#22E41E;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #9c8c7a;
+    color: black;
+}
+.main-heading{
+ text-align: center;
+    /* width: 590px; */
+   margin-top: 8%;
+   /* padding-left: 4%; */
+}
+
+.para{
+    color: #9c8c7a;
+    letter-spacing: 2px;
+}
+.main-heading h1 {
+  margin-right:50%;
+    color: #FFF;
+    font-family: 'Mulish Black';
+   padding-top: 5%;
+   font-size: 24px;
+    /* width: 590px; */
+    /* font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+   
+  
+    display: flex;
+    align-items: center;
+   
+    padding-left: 10%;
+    flex-shrink: 0;
+    margin-bottom: 20px; */
+}
+
+.main-heading p{
+    color: #FFF;
+    /* line-height: 1.9; */
+    font-size: 14px;
+  
+    font-family: 'Mulish Regular', sans-serif;
+    margin-left: 9%;
+  
+}
+.mid-para{
+    font-size: 11px;
+    color: #ffffff;
+    padding: 2% 0;
+}
+.btn1{
+    border-radius: 20px;
+    letter-spacing: 1px;
+    margin-top: 2%;
+}
+/* galerry */
+.section__container{
+   margin-bottom: 10%;
+   margin-top: 0px;
+}
+
+.popular__grid{
+    margin: auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 3%;
+    /* margin-top: 15px; */
+}
+.popular__card img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 0 5px #ccc;
+    /* border-radius: 20px; */
+}
+.popular__card{
+    width: 250px;
+    height: 300px;
+    /* margin-top:10px ; */
+   margin-bottom: 20%;
+  
+}
+.popular__card__header {
+    /* display: flex; */
+    gap: 35%;
+    /* margin-top: 2px; */
+    justify-content: center;
+}
+.popular__card__header .nen{
+    font-size: 14px;
+    color:#111111;
+    /* line-height: 1.9; */
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Mulish Regular', sans-serif;
+}
+.popular__card__header .nenn{
+    font-size: 16px;
+    color: #000;
+    line-height: 1.5;
+    font-family: 'Mulish Black', sans-serif;
+}
+.herr{
+    margin-left: 9%;
+    margin-top: 2%;
+    font-family: 'Mulish Black';
+    font-size: 24px;
+
+    
+}
+
+
+.image12 {
+    position: relative;
+  }
+  
+  .contenterr {
+    width: 100%;
+    aspect-ratio: 20/18;
+    display: none; /* Cachez la classe .content par défaut */
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    flex-shrink: 0;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    /* border-radius: 30px; */
+  }
+  
+  .image12:hover .contenterr {
+    display: block; /* Affichez la classe .content au survol de .image-container */
+  }
+  .contenterr .fanta{
+    padding-top: 25%;
+    float: right;
+    padding-right: 5%;
+  }
+  .contenterr .mert{
+ color: #FF9021;
+  }
+  .contenterr .fanta h6{
+   font-size: 18px;
+    line-height: 1.5;
+    font-family: 'Mulish Regular', sans-serif;
+    margin-top: 5%;
+     }
+  .contento button{
+    background-color: #22E41E;
+    cursor: pointer;
+    padding: 10px 24px;
+    border-color: #22E41E;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+  .contenterr button a{
+    color: #fff;
+    text-decoration: none;
+  }
+  .tibou{
+    background-color: #fff!important;
+  }
+.katy p{
+    margin-left: 10%;
+    font-size: 24px;
+    font-family: 'Mulish Black';
+    margin-top: 5px;
+    line-height: 1.9;
+    color: #000;
+    
+}
+
+  .card-listerr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: auto;
+    /* padding: 20px; */
+    gap: 20px;
+    background-color: #FFF;
+    margin-bottom: 10%;
+}
+
+.card-listerr  .card-item {
+    background: #fff;
+    /* padding: 10px; */
+    border-radius: 8px;
+    box-shadow: 0 0 5px #ccc;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border 0.5s ease;
+    height: 300px;
+    text-align: center;
+}
+
+.card-listerr  .card-item:hover {
+    border: 2px solid #FFF;
+}
+
+.card-listerr  .card-item img {
+    width: 100%;
+    aspect-ratio: 20/18;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.card-listerr  span {
+    display: inline-block;
+    background: #F7DFF5;
+    margin-top: 32px;
+    padding: 8px 15px;
+    font-size: 0.75rem;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.card-listerr  .developer {
+    background-color: #F7DFF5; 
+    color: #B22485;
+}   
+
+.card-listerr  .designer {
+    background-color: #d1e8ff;
+    color: #2968a8;
+}
+
+.card-listerr  .editor {
+    background-color: #d6f8d6; 
+    color: #205c20;
+}
+
+.card-item h6 {
+    color: #000;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: 'Mulish Regular', sans-serif;
+    font-weight: 600;
+}
+
+.card-item .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50%;
+
+    height: 30px;
+    width: 50px;
+   margin-top: 5%;
+  /* margin-left: 10%; */
+    /* margin-top: 40px; */
+    transition: 0.2s ease;
+}
+
+/* .card-list .card-item:hover .arrow  {
+    background: #000;
+    color: #fff; 
+} */
+
+@media (max-width: 1200px) {
+    .card-listerr  .card-item {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .card-listerr  {
+        margin: 0 auto;
+    }
+}
+.cercle img{
+    width: 25px!important;
+    height: 25px;
+}
+.cercle {
+    margin-bottom: 10%;
+}
+
+.katy h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    font-size: 24px;
+    line-height: 1.9;
+    font-family: 'Mulish Regular', sans-serif;
+}
